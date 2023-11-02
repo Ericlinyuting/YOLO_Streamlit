@@ -91,7 +91,7 @@ def main():
     stframe = st.empty()
     
     st.markdown("<hr/>", unsafe_allow_html=True)
-    kpi1, kpi2, kpi3 = st.beta_columns(3) #st.columns(3)
+    kpi1, kpi2, kpi3 = st.columns(3) #st.columns(3)
 
     # stframe.image(im0,channels = 'BGR',use_column_width=True)
 
