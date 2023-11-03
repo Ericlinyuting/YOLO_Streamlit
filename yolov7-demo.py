@@ -64,7 +64,8 @@ def main():
 
     if not video_file_buffer:
         if use_webcam:
-            vid = cv2.VideoCapture(0, cv2.CAP_ARAVIS)
+            # vid = cv2.VideoCapture(0, cv2.CAP_ARAVIS)
+            vid = cv2.VideoCapture("rtsp://admin:tyt27083019-1@111.70.29.175:554")
             tfflie.name = 0
         else:
             vid = cv2.VideoCapture(DEMO_VIDEO)
