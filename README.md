@@ -1,6 +1,5 @@
-# YOLO_Streamlit
-### Steps to run Code
-1. Clone repo.
+# YOLO_Streamlit Steps to run Code
+### 1. Clone repo.
 ```
 git clone https://github.com/Ericlinyuting/YOLO_Streamlit.git
 ```
@@ -14,9 +13,9 @@ cd YOLO_Streamlit
 pip install --upgrade pip
 ```
 
-2. Install requirements.
+### 2. Install requirements.
 - Install requirements with mentioned command below.
-### Pip 
+# Pip 
 ```
 python3 -m venv .env
 source .env/bin/activate
@@ -37,7 +36,7 @@ pip install cython-bbox
 - Run the code with mentioned command below.
 
 
-### conda
+# conda
 ```
 conda env create -f environment.yml
 ```
@@ -51,12 +50,12 @@ pip install -e git+https://github.com/samson-wang/cython_bbox.git#egg=cython-bbo
 # for linux
 pip install cython-bbox
 
-3. Download weights.
+### 3. Download weights.
 ```
 python download_weights.py
 ```
 
-4. Run stremlit server
+### 4. Run stremlit server
 ```
 streamlit run yolov7-tiny-demo.py --server.port [LPORT]
 ```
