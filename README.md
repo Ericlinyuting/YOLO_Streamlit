@@ -14,6 +14,8 @@ pip install --upgrade pip
 ```
 
 ### 2. Install requirements.
+python-3.9.13
+streamlit-1.11.0
 - Install requirements with mentioned command below.
 # Pip 
 ```
